@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=3.0, maximum-scale=1.0">
+	<title></title>
+	<script type="text/javascript" src="caro.js"></script>
+	<link rel="stylesheet" type="text/css" href="caro.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	<!-- <img id="logo" src="img/logo.png"> -->
+</header>
+<div id="container">
+	<div id="board">
+		<table id="board-table">
+			<tbody>
+			<script type="text/javascript">
+				for(var i=0; i < noOfRow; i++){
+					document.write('<tr>');
+					for(var j=0; j < noOfCol; j++){
+						document.write('<td class="square" id="s'+String('00' + i).slice(-2)+String('00' + j).slice(-2)+'" onclick="sqClick(' + i + ',' + j + ' )"></td>');
+					}
+					document.write('</tr>');
+				}
+			</script>
+			</tbody>
+		</table>
+	</div>
+	<div id="board-cpanel">
+		<button class="btn1 btn-med" id="newGame" onclick="newGame()">Ván mới</button>
+		<button class="btn1 btn-med" id="resign" onclick="resign()">Chịu thua</button>
+		<button class="btn1 btn-med" id="undo" onclick="undo()">Xin đi lại</button>
+		<button class="btn1 btn-med" id="home" onclick="window.location.href = '../';">Home</button>
+	</div>
+</div>
+</body>
+</html>

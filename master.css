@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  /* background-image: url('131061.jpg');
+  background-repeat: no-repeat; */
+  background-size:100% ;
+  overflow: hidden;
+  }
+
+/* Hide scrollbar for Chrome, Safari and Opera
+body::-webkit-scrollbar {
+      display: none;
+  }
+
+ Hide scrollbar for IE and Edge
+body {
+      -ms-overflow-style: none;
+  }
+
+
+.white-box{
+  background-color: white;
+  margin-top: 70%;
+  margin-left: 100%
+} */
+#ld{
+  color: white;
+  margin-left: 2% !important;
+}
+.play{
+  margin-top: 20%;
+  margin-left: 40%;
+  transition: margin-top 2s 0.5s ;
+  -moz-transition: margin-top 2s 0.5s ease-in-out;
+  -webkit-transition: margin-top 2s 0.5s ease-in-out;
+}
+.play:hover {
+  margin-top: 150px;
+}
+button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 12%;
+}
+h1{
+  color: white;
+  margin-left: 12%;
+  font-family: Quicksand;
+}

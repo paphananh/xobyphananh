@@ -60,7 +60,7 @@ header a {
 }
 #board-table{
 	width: 100%;
-	border: 1px solid #7F6346;
+/* 	border: 1px solid #7F6346; */
 	min-width: 500px;
 	table-layout:fixed;
 }
